@@ -13,7 +13,7 @@ def print_table(mode, particle_args):
     for temp in sorted(water_properties):
         water = water_properties[temp]
         rho_w, mu_w, k_w = water["density"], water["viscosity"], water["conductivity"]
-        Cp_w = water["cp"] * 1000  # kJ/(kg*K) -> J/(kg*K) to match nanoparticle Cp units
+        Cp_w = water["cp"]  
  
         if mode == "d":
             (rho_n1, Cp_n1, k_n1, phi1,
