@@ -12,6 +12,7 @@ factor -- it is no longer needed.
 # cp [J/(kg.K)], conductivity [W/(m.K)].
 water_properties = {
     20: {"density": 998.21, "viscosity": 1.002e-3, "cp": 4185, "conductivity": 0.598},
+    25: {"density": 997.10, "viscosity": 8.91e-4, "cp": 4179, "conductivity": 0.613},
     30: {"density": 995.65, "viscosity": 0.797e-3, "cp": 4180, "conductivity": 0.616},
     40: {"density": 992.22, "viscosity": 0.653e-3, "cp": 4179, "conductivity": 0.631},
     50: {"density": 988.05, "viscosity": 0.547e-3, "cp": 4180, "conductivity": 0.644},
